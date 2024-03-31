@@ -21,7 +21,7 @@ To install Flashy in your CloudArcade, follow these steps:
 
 - Your CloudArcade purchase code must be valid to use this plugin. Make sure that you entered it correctly in the CloudArcade settings.
 - The **Premium License Code** settings of Flashy is optional, you can leave that empty if you don't have one.
-- The flash games included in free license are in normal quality. If you want to access the premium high quality games, you need to purchase the premium license code of Flashy [here](https://www.buymeacoffee.com/plugman/e/237905).
+- The flash games included in the free license are in normal quality. If you want to access the premium high quality games, you need to purchase the premium license code of Flashy [here](https://www.buymeacoffee.com/plugman/e/237905).
 
 ## Broken Flash Games
 
