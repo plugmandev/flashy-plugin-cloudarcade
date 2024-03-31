@@ -11,6 +11,14 @@ if(!defined('USER_ADMIN')){
 
 require __dir__ . '/plugman.php';
 
+if(file_exists(__dir__ . '/info.json')){
+    $localInfo = json_decode(file_get_contents(__dir__ . '/info.json'), true);
+} else {
+    $localInfo = [
+        "version" => "0.0.0"
+    ];
+}
+
 $selected_categories = []; 
 
 if(isset($_SESSION['category'])){
@@ -151,6 +159,10 @@ if($validateToken && $validateToken["status"] == 200){
 
     <div class="card">
         <div class="card-body">
+            <div id="updateAlert" class="alert alert-warning" role="alert" style="display: none;">
+                <i class="fa fa-info-circle" aria-hidden="true"></i> There is a new update for this plugin, please download it from <a href="https://github.com/plugmandev/flashy-plugin-cloudarcade/releases" target="_blank">here</a>.
+            </div>
+
             <div id="importAllLoading" class="alert alert-info" role="alert" style="display: none;">
                 <i class="fa fa-sync-alt fa-spin" aria-hidden="true"></i> Importing selected games, please wait...
             </div>
@@ -569,6 +581,14 @@ if($validateToken && $validateToken["status"] == 200){
                     $(`form button, form input, form select`).removeAttr('disabled');
                 }
             });
+        });
+
+        $.get(`https://raw.githubusercontent.com/plugmandev/flashy-plugin-cloudarcade/master/info.json`, function(http) {
+            const response = (typeof http === "string") ? JSON.parse(http) : JSON.parse(JSON.stringify(http));
+
+            if(response.version > "<?= $localInfo['version']; ?>"){
+                $('#updateAlert').fadeIn();
+            }
         });
 
         // Event listener for search input
