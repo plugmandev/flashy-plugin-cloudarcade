@@ -62,6 +62,7 @@ if($validateToken && $validateToken["status"] == 200){
 } else {
     $getToken = plugmanApi("/generate/token", [
         "code" => empty($pcode) ? md5(plugman_site_url()) : $pcode,
+        "cloudarcade_code" => get_setting_value('purchase_code'),
         "domain" => plugman_site_url()
     ]);
 

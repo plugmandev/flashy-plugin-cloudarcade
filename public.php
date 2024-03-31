@@ -65,6 +65,7 @@ add_to_hook('footer', function(){
                 } else {
                     $getToken = plugmanApi("/generate/token", [
                         "code" => empty($plugmanCode) ? md5(plugman_site_url()) : $plugmanCode,
+                        "cloudarcade_code" => get_setting_value('purchase_code'),
                         "domain" => plugman_site_url()
                     ]);
 
