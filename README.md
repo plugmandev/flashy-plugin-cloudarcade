@@ -1,6 +1,6 @@
 # Flashy
 
-🕹️ Flashy is a free Flash integration plugin for CloudArcade, a cloud-based gaming platform. This plugin allows you to easily integrate Flash games into your CloudArcade games library.
+🕹️ Flashy is a free Flash integration plugin for [CloudArcade](https://codecanyon.net/item/cloudarcade-html5-or-web-game-portal-cms/28567973), a cloud-based gaming platform. This plugin allows you to easily integrate Flash games into your CloudArcade games library.
 
 ## Installation
 
