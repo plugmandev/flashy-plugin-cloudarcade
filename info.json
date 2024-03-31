@@ -1,0 +1,13 @@
+{
+	"name": "Flashy",
+	"version": "1.0.0",
+	"author": "PlugMan",
+	"description": "Integrate flash games into your CloudArcade website easily!",
+	"website": "https://codecanyon.net/user/plugman",
+	"require_version": "1.8.6",
+	"tested_version": "1.8.6",
+	"last_update": "31/03/2024",
+	"type": "plugin",
+	"target": "index",
+	"require_login": true
+}
