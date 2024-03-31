@@ -17,6 +17,12 @@ To install Flashy in your CloudArcade, follow these steps:
 4. Select the zip file you downloaded then click "Upload".
 5. Once the plugin is installed, click on it in the sidebar then you can start adding Flash games to your CloudArcade games library.
 
+## Important Notes
+
+- Your CloudArcade purchase code must be valid to use this plugin. Make sure that you entered it correctly in the CloudArcade settings.
+- The **Premium License Code** settings of Flashy is optional, you can leave that empty if you don't have one.
+- The flash games included in free license are in normal quality. If you want to access the premium high quality games, you need to purchase the premium license code of Flashy [here](https://www.buymeacoffee.com/plugman/e/237905).
+
 ## Broken Flash Games
 
 If there are any Flash games that are not working, please [open an issue](https://github.com/plugmandev/flashy-plugin-cloudarcade/issues) with the following information:
