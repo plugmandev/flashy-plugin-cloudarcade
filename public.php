@@ -82,6 +82,16 @@ add_to_hook('footer', function(){
                 $gameType = $isImport ? (isset($gameData[4]) ? $gameData[4] : "Legacy") : "Legacy";
 ?>
 <link rel="stylesheet" href="<?= plugman_site_url("/content/plugins/flashy/assets/css/styles.css"); ?>" />
+<style>
+/**
+ * CloudArcade css fixes
+ */
+
+img.small-thumb {
+    height: 80px;
+    object-fit: cover;
+}
+</style>
 <script>
     const { fileName, gameType, playerPath, plugmanUrl, playerData } = {
         fileName: "<?php if($isImport){ ?>/game-file.swf?token=<?= $ownerToken; ?>&type=<?= $gameData[4]; ?>&pid=<?php echo $gameData[3]; } ?>",
