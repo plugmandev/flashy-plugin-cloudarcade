@@ -6,7 +6,7 @@
 
 To install Flashy in your CloudArcade, follow these steps:
 
-1. Download the latest release zip file from here: [Flashy Release](https://github.com/plugmandev/flashy-plugin-cloudarcade/releases)
+1. Download the latest release.zip file from here: [Flashy Release](https://github.com/plugmandev/flashy-plugin-cloudarcade/releases)
 2. Login to your CloudArcade account.
 3. Go to the "Manage Plugins" section in the CloudArcade dashboard.
 4. Select the Flashy zip file you downloaded then click "Upload".
