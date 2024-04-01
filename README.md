@@ -25,11 +25,11 @@ To install Flashy in your CloudArcade, follow these steps:
 
 ## Previews
 
-![Preview 1](previews/1.png)
-![Preview 2](previews/2.png)
-![Preview 3](previews/3.png)
-![Preview 4](previews/4.png)
-![Preview 5](previews/5.png)
+![Preview 1](previews/preview_1.png)
+![Preview 2](previews/preview_2.png)
+![Preview 3](previews/preview_3.png)
+![Preview 4](previews/preview_4.png)
+![Preview 5](previews/preview_5.png)
 
 ## Broken Flash Games
 
